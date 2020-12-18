@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.math.*;
+
+public class toPower {
+
+	public static void main(String[] args) {
+		ArrayList x = new ArrayList();
+		x.add(0);
+		x.add(1);
+		x.add(2);
+		x.add(3);
+		int y = 2;
+        System.out.println("Power of x and y is: " + Math.pow(x, y));
+	}
+}
